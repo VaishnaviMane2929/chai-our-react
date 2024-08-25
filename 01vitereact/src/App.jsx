@@ -9,9 +9,8 @@ function App() {
 
   return (
     <>
-    <h3>react jsx</h3>
-     <h1>Chai our react with vite | vaishnavi</h1>
-     <Chai/>
+    
+      <Chai/>
      </>
     )
 }
