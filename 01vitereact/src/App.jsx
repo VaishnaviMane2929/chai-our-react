@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-    
-      <Chai/>
+    <h1>chai our react</h1>
+    <p>text paragraph</p>
      </>
     )
 }
