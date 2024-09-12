@@ -9,6 +9,7 @@ function App() {
   return (
     <>
     <h1 className='bg-green-500'>hello tailwind</h1>
+    <h5 className='bg-black'>tailwind props</h5>
     </>
   )
 }
