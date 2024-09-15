@@ -63,7 +63,7 @@ function App() {
           onClick={() => setColor("Gray")}
           className='outline-none px-4 py-1 rounded-full text-black shadow-lg'
           style={{backgroundColor: "Gray"}}>Gray</button>
-        </div>
+        </div>❤
       </div>
      </div>
     
