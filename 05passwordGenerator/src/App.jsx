@@ -25,12 +25,13 @@ const passwordRef = useRef(null)
   }, [length,numberAllowed, charAllowed , setPassword] )
 
   const copyPasswordIdClipboard = useCallback( () => {
-    window
+    Password
+    window.navigator.clipboard.writeText(Password)
   },
    [Password])
   
   useEffect(() => {
-    PasswordGenerator()
+    PasswordGenerator() 
   }, [length, numberAllowed,charAllowed, PasswordGenerator] )
 
   return (
