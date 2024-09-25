@@ -1,12 +1,6 @@
 import React from 'react'
-
-function home() {
-  return (
-    <div>home</div>
-  )
-}
-
-export default homeexport default function Home() {
+import { Link } from 'react-router-dom';
+export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
             <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
@@ -16,7 +10,6 @@ export default homeexport default function Home() {
                             Download Now
                             <span className="hidden sm:block text-4xl">Lorem Ipsum</span>
                         </h2>
-
                         <Link
                             className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
                             to="/"
@@ -35,16 +28,13 @@ export default homeexport default function Home() {
                         </Link>
                     </div>
                 </div>
-
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
                     <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
                 </div>
             </aside>
-
             <div className="grid  place-items-center sm:mt-20">
                 <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
             </div>
-
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
         </div>
     );
